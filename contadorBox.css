@@ -1,0 +1,217 @@
+:root{
+    --titulo:#a1ddd5;
+    --cuerpo:#8A0808;
+    --colornum:rgb(12, 240, 12);
+    --colorBotonMenu:white;
+    --transition:-100%;
+    --cajas:rgb(185, 179, 179);
+    --colorBotonValidar:white;
+    --colorTextMenu:rgb(238, 9, 9);
+    --transition1:-100%;
+
+
+}
+@font-face{
+    font-family:'miletra';
+    src:url('Road_Rage.otf');
+   }
+.titulo{
+
+    background-color:var(--titulo);
+    width:90%;
+    text-align:center;
+    margin:auto;
+    padding:20px;
+    border-radius:10px;
+    font-family:'miletra';
+    color: rgb(20, 72, 184);
+    opacity: 0.8;
+    
+    
+
+}
+#seccion1{
+    height:70%;
+    width:93%;
+    background-color:red;
+    margin:auto;
+    margin-top:2%;
+    background-color:rgb(37, 36, 36);
+    opacity:0.9;
+    
+    border-radius:20px;
+}
+.cuerpo{
+    background-image:url("fondo-box.jpg");
+    height:685px
+    
+}
+#numeros{
+    
+    
+    height: 300px;
+    text-align: center;
+    padding:10%;
+    color:var(--colornum);
+    opacity:1;
+} 
+.numbers{
+    
+    
+    font-size:9rem;
+    margin:auto;
+
+}
+.rounds{
+    color:var(--colorTextMenu);
+    text-align: center;
+    font-size:3rem;
+    
+}
+#boton{
+    margin-top:7%;
+    border-radius: 5px;
+    color:var(--colorBotonValidar);
+    width:10%;
+    margin-left:5%;
+    background-color: rgb(15, 14, 14);
+}
+.botonmenu{
+outline:0;
+position:fixed;
+z-index:999;
+bottom:2vh;
+right:4vw;
+width:4rem;
+height:4rem;
+border-radius: 50%;
+padding:0;
+display:flex;
+justify-content:center;
+align-items:center;
+background-color:var(--colorBotonMenu);
+color:var(--colorTextMenu);
+transition:transform 0s ease;
+transform:translate(var(--transition1),0);
+background-color: red;
+
+}
+.panel{
+    position:fixed;
+    z-index:998;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    height:100%;
+    width:100%;
+    
+    transition:transform 0.7s ease;
+    transform:translate(0,var(--transition));
+    background-color:rgb(107, 96, 96);
+}
+
+#round{
+    font-size:5rem;
+    color:var(--colorTextMenu);
+    margin-left:10%;
+    
+}
+.caja1{
+    width:4rem;
+    height: 3rem;
+    font-size:3rem;
+    border-radius:5px;
+    background-color:var(--cajas);
+
+
+}
+#roundTime{
+    margin-left:10%;
+    font-size:5rem;
+    color:var(--colorTextMenu);
+
+
+}
+.roundMinutes{
+    width:4rem;
+    height: 3rem;
+    font-size:3rem;
+    border-radius:5px;
+    background-color:var(--cajas);
+
+
+
+}
+.roundSeconds{
+    width:4rem;
+    height: 3rem;
+    font-size:3rem;
+    border-radius:5px;
+    background-color:rgb(185, 179, 179)
+
+
+ 
+}
+#restTime{
+    font-size:5rem;
+    color:var(--colorTextMenu);
+    margin-left:10%;
+
+}
+.restMinutes{
+    width:4rem;
+    height: 3rem;
+    font-size:3rem;
+    border-radius:5px;
+    background-color:rgb(185, 179, 179)
+
+
+}
+.restSeconds{
+    width:4rem;
+    height: 3rem;
+    font-size:3rem;
+    border-radius:5px;
+    background-color:rgb(185, 179, 179)
+
+
+}
+#tituloMenu{
+    font-size:6rem;
+    text-align:center;
+}
+
+
+#botonMenu2{
+    outline:0;
+    position:fixed;
+    z-index:999;
+    bottom:1vh;
+    right:8vw;
+    width:4rem;
+    height:4rem;
+    border-radius: 50%;
+    padding:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:var(--colorBotonMenu);
+    color:red;
+    
+}
+.error{
+    font-size:25%;
+    color:yellow;
+    
+}
+.error2{
+    font-size:25%;
+    color:yellow;
+    
+}
+.error3{
+    font-size:25%;
+    color:yellow;
+    
+}
